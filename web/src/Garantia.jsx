@@ -51,13 +51,43 @@ Siempre recomendamos utilizar reguladores de voltaje o batería de respaldo para
                 <li>No se cubren Fallas de sistema operativo o cualquier tipo de falla en el software. La garantía es sobre fallas de fabrica del hardware del equipo, no sobre el sistema operativo. Cualquier reparación o corrupción del arranque que requiera reinstalación del sistema operativo tendrá su respectivo costo.</li>
                 <li>Reclamos, devoluciones o revisiones relacionado a programas o Juegos que no corren o no se ejecutan. Aunque si estamos a la orden para asesorarle sobre si su equipo puede funcionarle para un juego o algún programa de trabajo específico, el cliente tiene la obligación de realizar todos las revisiones e investigaciones correspondientes para saber si el equipo que se va a comprar le funciona correctamente para el programa o Juego que vaya a utilizar.</li>
                 <li>Fallas de software causadas por mal apagado del equipo o las causadas por actualizaciones o instalaciones fallidas del BIOS.</li>
-                <li>Accesorios de Cortesía como fundas y Mouse inalámbricos y programas incluidos de Cortesía como el Office No Tienen Garantía. No se admiten reclamos por activación de Office o similares ya que el software normalmente tiene un costo y se esta incluyendo en su equipo de Cortesía sin costo.</li>
+                <li>Accesorios de Cortesía como fundas y Mouse inalámbricos y programas incluidos de Cortesía como el Office No Tienen Garantía. No se admiten reclamos por activación de Office o similares ya que el software normalmente tiene un costo y se está incluyendo en su equipo de Cortesía sin costo.</li>
                 <li>Cualquier reclamo de algún software instalado de Cortesia (ejemplo office de cortesía) que presente algún fallo después no se admite en garantía. Tiene su respectivo costo de revisión o reinstalación</li>
                 <li>No se cubren garantías si hay presencia de Golpes o derrames de líquidos en los equipos.</li>
                 <li>Equipos con Corto circuitos o daños causados por fluctuaciones de voltaje o mal uso del equipo.</li>
                 <li>No se admitirán para garantía las Laptops con elementos extraños dentro, presencia de insectos o revisiones y modificaciones no autorizadas o realizadas por OTRO CENTRO DE SERVICIO.</li>
                 <li>Daños en el teclado causados por mal uso o desgaste normal como teclas borradas o botones levantados. (AL MOMENTO DE LA ENTREGA DEL EQUIPO SE DEBE VERIFICAR EL BUEN ESTADO DEL TECLADO)</li>
                 <li>Laptop entregada con el cable de alimentación alterado en el cargador, o utilizando convertidor de 3 a 2 en la corriente.</li>
+              </ul>
+            </div>
+          </section>
+          <hr className="cs-garantia-separator" />
+          <section className="cs-garantia-section">
+            <div className="cs-garantia-section-title">GARANTIA DE CPUS</div>
+            <div className="cs-garantia-section-text cs-garantia-align-left">
+              <ul className="cs-garantia-bullets">
+                <li>La Garantía SOLO CUBRE las siguientes condiciones en CPUS Y COMBOS DE ESCRITORIO de Segunda Mano o Poco Uso:</li>
+                <li>En los CPUS se cubren fallos de fabrica como lo pueden ser fallos de la placa madre, fallos de memoria RAM, fallos en el SSD, fallos en el encendido, fallos de imagen o encendido del monitor vendido en el Combo, reinicios inesperados del equipo, puertos USB defectuosos.</li>
+                <li>Si alguno de estos componentes falla por un sobrevoltaje de una fluctuación de voltaje, NO será cubierto por Garantía. Favor leer las recomendaciones al inicio del documento.</li>
+              </ul>
+              <div className="cs-garantia-section-text cs-garantia-align-left">
+                <strong>Accesorios de los combos de CPU</strong> como lo son el Teclado, mouse y Accesorios WiFi USB tienen <strong>30 días de garantía</strong><br/>
+                <strong>Las licencias de Office</strong> solo tienen garantía si fueron facturadas a su costo regular adicional al costo del equipo.
+              </div>
+              <br/>
+              <div className="cs-garantia-section-subtitle">EXCEPCIONES DE GARANTIA EN CPUS Y COMBOS USADOS O DE POCO USO:</div>
+              <ul className="cs-garantia-bullets">
+                <li>No se cubren Fallas de sistema operativo o cualquier tipo de falla en el software. La garantía es sobre fallas de fabrica del equipo, no sobre el sistema operativo. Cualquier reparación o corrupción del arranque que requiera reinstalación del sistema operativo tendrá su respectivo costo. Apague su equipo de manera correcta. Un equipo mal apagado constantemente, causara especificas en el Windows las cuales se pueden identificar plenamente y estas fallas No se cubren en Garantía.</li>
+                <li>Fallas de software causadas por mal apagado del equipo o las causadas por actualizaciones o instalaciones fallidas del BIOS. Si el equipo inicia una actualización de Firmware o BIOS al encenderlo, no lo interrumpa, aunque demore bastante, este proceso siempre finaliza. Si es interrumpido, el equipo sufrirá daño irreparable y no se admitirá para Garantía.</li>
+                <li>Accesorios de Cortesía como fundas y Mouse inalámbricos y programas incluidos de Cortesía como el Office No Tienen Garantía. No se admiten reclamos por activación de Office o similares ya que el software normalmente tiene un costo y se está incluyendo en su equipo de Cortesía sin costo. El mismo se le podrá instalar nuevamente con su licencia la cual tiene su costo.</li>
+                <li>Cualquier reclamo de algún software instalado de cortesía que presente algún fallo después no se admite en garantía. Tiene su respectivo costo de revisión o reinstalación.</li>
+                <li>Golpes o derrames de líquidos en los equipos anulan inmediatamente la garantía.</li>
+                <li>Corto circuitos o daños causados por fluctuaciones de voltaje o mal uso del equipo.</li>
+                <li>CPUS con elementos extraños dentro, presencia de insectos o modificaciones no autorizadas o realizadas por otro centro de servicio.</li>
+                <li>Monitores rayados o golpeados en la pantalla no se admiten en garantía. Monitores utilizados con cables diferentes a los entregados al momento de la venta no tienen garantía.</li>
+                <li>Equipos conectados a tomacorrientes de 2 salidas o usados con convertidores de 3 salidas no tienen garantía.</li>
+                <li>No se admitirán para garantía equipos con elementos extraños dentro, presencia de insectos o revisiones y modificaciones no autorizadas o realizadas por OTRO CENTRO DE SERVICIO.</li>
+                <li>Equipos entregados con el cable de alimentación alterado en el cargador o utilizando convertidor de 3 a 2 en la corriente.</li>
               </ul>
             </div>
           </section>

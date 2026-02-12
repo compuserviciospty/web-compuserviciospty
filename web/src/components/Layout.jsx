@@ -8,13 +8,12 @@ export default function Layout({ children }) {
   const location = useLocation();
   return (
     <>
-      <header className="cs-header cs-header-white">
+      <header className="cs-header cs-header-fixed">
         <div className="cs-header-content cs-header-justify">
           <img src={logoChico} alt="Logo Chico" className="cs-logo-chico cs-logo-chico-left" />
           <img src={logoNormal} alt="Logo Compuservicios" className="cs-logo-normal cs-logo-left" />
           <nav className="cs-nav">
             <Link to="/" className={`cs-nav-btn${location.pathname === '/' ? ' active' : ''}`}>Inicio</Link>
-            <Link to="/" className={`cs-nav-btn${location.pathname === '/' ? ' active' : ''}`}>Ver Catálogo</Link>
             <Link to="/garantia" className={`cs-nav-btn${location.pathname === '/garantia' ? ' active' : ''}`}>Garantía</Link>
           </nav>
         </div>

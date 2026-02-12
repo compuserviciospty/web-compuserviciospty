@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import logoNormal from './assets/logo/LOGO WEBPAGE.png';
 import logoChico from './assets/logo/LOGO WEBPAGE chico.png';
 import bannerImage from './assets/logo/image1.jpeg';
+import ContactoForm from './ContactoForm';
 
 function App() {
   return (
@@ -17,10 +18,6 @@ function App() {
           <p className="cs-bienvenida-desc">
             Tu aliado en tecnología. Ofrecemos soluciones confiables en computadoras, accesorios y soporte técnico para empresas y particulares.
           </p>
-          <div className="cs-bienvenida-btns">
-            <a href="#catalogo" className="cs-btn cs-btn-rojo">Ver Catálogo</a>
-            <a href="#contacto" className="cs-btn cs-btn-outline">Contacto</a>
-          </div>
           <div className="cs-confianza">
             <div className="cs-confianza-item">
               <span className="cs-icon">🔒</span>
@@ -35,7 +32,16 @@ function App() {
               <span>Soporte técnico</span>
             </div>
           </div>
+          <div className="cs-bienvenida-btns">
+            <div className="cs-contacto-link-block">
+              <div className="cs-contacto-link-msg">¿Tienes dudas o necesitas ayuda? ¡Contáctanos por WhatsApp!</div>
+              <a href="https://wa.me/50766791844" target="_blank" rel="noopener noreferrer" className="cs-btn cs-btn-outline">Contáctanos</a>
+            </div>
+          </div>
         </section>
+        <div className="cs-contacto-form-wrapper">
+          <ContactoForm />
+        </div>
         <section id="catalogo">
           <h2>Catálogo</h2>
           <p>Explora nuestros productos y servicios.</p>
