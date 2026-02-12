@@ -43,13 +43,15 @@ export default function ContactoForm() {
 
   return (
     <section className="cs-section">
-      <div className="cs-contacto-layout-fix">
-        <div className="cs-col">
-          <h2 className="cs-contacto-title-right">Contacto</h2>
-          <h4 className="cs-contacto-subtitle">¿Tienes dudas o quieres cotizar?</h4>
-          <img src="/src/assets/logo/contacto.png" alt="Contacto" className="cs-contacto-img" />
+      <div className="cs-contacto-layout-fix cs-contacto-2col-align">
+        <div className="cs-contacto-info-col cs-contacto-align-stretch">
+          <div className="cs-contacto-info-inner">
+            <h2 className="cs-contacto-title-right">Contacto</h2>
+            <h4 className="cs-contacto-subtitle">¿Tienes dudas o quieres cotizar?</h4>
+            <img src="/src/assets/logo/contacto.png" alt="Contacto" className="cs-contacto-img" />
+          </div>
         </div>
-        <form className="cs-form" onSubmit={handleSubmit}>
+        <form className="cs-form cs-contacto-form-align" onSubmit={handleSubmit}>
           <div className="cs-contacto-field">
             <label className="cs-garantia-section-subtitle" htmlFor="nombreCompleto">Nombre Completo</label>
             <input
