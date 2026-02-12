@@ -6,8 +6,8 @@ function Layout() {
     <>
       <nav className="navbar">
         <div className="navbar-logo-left">
-          <img src="/src/assets/LOGO WEBPAGE chico.png" alt="Logo chico" className="logo-navbar logo-navbar-small" />
-          <img src="/src/assets/LOGO WEBPAGE.png" alt="Logo grande" className="logo-navbar logo-navbar-large" />
+          <img src="/assets/LOGO WEBPAGE chico.png" alt="Logo chico" className="logo-navbar logo-navbar-small" />
+          <img src="/assets/LOGO WEBPAGE.png" alt="Logo grande" className="logo-navbar logo-navbar-large" />
         </div>
         <div className="navbar-buttons">
           <button className="navbar-btn" onClick={() => window.location.href = '/'}>INICIO</button>

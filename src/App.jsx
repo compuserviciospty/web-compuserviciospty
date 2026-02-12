@@ -7,7 +7,7 @@ function App() {
     <>
       <div className="hero-image-section">
         <img
-          src="/src/assets/image1.jpeg"
+          src="/assets/image1.jpeg"
           alt="Hero"
           className="hero-image"
         />
