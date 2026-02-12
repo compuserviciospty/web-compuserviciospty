@@ -13,7 +13,7 @@ function App() {
         <img src={bannerImage} alt="Banner Compuservicios" />
       </div>
       <main className="cs-main">
-        <section className="cs-bienvenida">
+        <section className="cs-section cs-bienvenida">
           <h1>Bienvenido a Compuservicios</h1>
           <p className="cs-bienvenida-desc">
             Tu aliado en tecnología. Ofrecemos soluciones confiables en computadoras, accesorios y soporte técnico para empresas y particulares.
@@ -42,7 +42,7 @@ function App() {
         <div className="cs-contacto-form-wrapper">
           <ContactoForm />
         </div>
-        <section id="catalogo">
+        <section className="cs-section" id="catalogo">
           <h2>Catálogo</h2>
           <p>Explora nuestros productos y servicios.</p>
         </section>
