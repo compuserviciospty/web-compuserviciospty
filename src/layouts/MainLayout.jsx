@@ -1,7 +1,7 @@
-import './App.css';
-import { Outlet } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
+import '../styles/App.css';
 
-function Layout() {
+function MainLayout() {
   return (
     <>
       <nav className="navbar">
@@ -10,8 +10,8 @@ function Layout() {
           <img src="/assets/LOGO WEBPAGE.png" alt="Logo grande" className="logo-navbar logo-navbar-large" />
         </div>
         <div className="navbar-buttons">
-          <button className="navbar-btn" onClick={() => window.location.href = '/'}>INICIO</button>
-          <button className="navbar-btn" onClick={() => window.location.href = '/garantia'}>GARANTIA</button>
+          <Link to="/" className="navbar-btn">INICIO</Link>
+          <Link to="/garantia" className="navbar-btn">GARANTIA</Link>
         </div>
       </nav>
       <Outlet />
@@ -22,4 +22,4 @@ function Layout() {
   );
 }
 
-export default Layout;
+export default MainLayout;

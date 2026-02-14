@@ -1,0 +1,521 @@
+/* Body styles are handled in index.css */
+
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  background: #25D366;
+  color: #fff !important;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  margin-top: 6px;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  transition: background 0.2s;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5d;
+  color: #fff;
+}
+
+.contact-form-columns {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contact-info-col {
+  flex: 1 1 0;
+  min-width: 220px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Aligned left as requested */
+  align-items: flex-start;
+  text-align: left;
+  font-size: 1.05rem;
+  color: #333;
+  padding-right: 8px;
+}
+
+.contact-form-col {
+  flex: 1 1 0;
+  min-width: 340px;
+  max-width: 750px;
+  /* Increased by ~50% from 500px */
+  margin-left: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-details p {
+  margin-bottom: 4px;
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+.contact-details .section-header {
+  margin-bottom: 8px;
+}
+
+.contact-details .section-header {
+  margin-bottom: 8px;
+}
+
+.content-section {
+  width: 100%;
+  max-width: 90vw;
+  /* Ancho máximo relativo al ancho de la ventana */
+  margin: 5vh auto;
+  /* Márgenes verticales proporcionales al alto de la ventana */
+  padding: 2.5rem 2rem;
+  /* Relleno interno proporcional */
+  background: #fff;
+  border-radius: 1rem;
+  /* Bordes redondeados proporcionales */
+  box-shadow: 0 0.125rem 0.75rem rgba(0, 0, 0, 0.06);
+  /* Sombra proporcional */
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid rgba(211, 47, 47, 0.4);
+  /* Leve resaltado rojo */
+}
+
+/* Specific overrides or additions if needed */
+.hero-image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  /* Hero image might need less padding if it fills the card */
+}
+
+/* .about-us-section uses .content-section in HTML */
+
+/* .contact-form-area uses .content-section in HTML */
+
+.contact-form .form-group {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #d32f2f;
+}
+
+/* Ensure form fills the column */
+.contact-form {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  /* Force full width */
+  box-sizing: border-box;
+  border: 1.5px solid #d32f2f;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  outline: none;
+  margin-bottom: 2px;
+  background: #fafafa;
+  transition: border 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 2px solid #b71c1c;
+}
+
+.contact-form button[type="submit"] {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.page-content {
+  max-width: 1397px;
+  /* Incremento del 10% sobre 1270px */
+  margin: 60px auto;
+  /* Incrementar el margen superior e inferior */
+  padding: 48px 40px;
+  /* Incrementar el relleno interno */
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  box-sizing: border-box;
+}
+
+.section-subtitle {
+  color: #d32f2f;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  text-align: left;
+  letter-spacing: 0.2px;
+}
+
+.section-header {
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+  margin-top: 0;
+  text-align: left;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #eee;
+  margin: 32px 0;
+}
+
+.main-title {
+  color: #d32f2f;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 96px;
+  margin-bottom: 32px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.footer-bar {
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  color: #222;
+  text-align: center;
+  padding: 16px 0 12px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.04);
+  z-index: 100;
+}
+
+.navbar-buttons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 100%;
+  margin-right: 100px;
+}
+
+.navbar-btn {
+  padding: 8px 24px;
+  border-radius: 24px;
+  border: 2px solid #d32f2f;
+  background: #fff;
+  color: #d32f2f;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.2s;
+  outline: none;
+}
+
+.navbar-btn:hover {
+  background: #d32f2f;
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(211, 47, 47, 0.15);
+  transform: translateY(-2px) scale(1.04);
+  border-color: #d32f2f;
+}
+
+.navbar-btn:focus {
+  border-color: #d32f2f;
+  box-shadow: 0 0 0 2px rgba(211, 47, 47, 0.15);
+}
+
+.logo-navbar-small {
+  height: 40px;
+  margin-right: 12px;
+}
+
+.logo-navbar-large {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.navbar-logo-left {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logo-navbar {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.navbar {
+  width: 100vw;
+  height: 64px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  padding: 0 32px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.hero-image-section {
+  width: 100%;
+  max-width: 90vw;
+  /* Ajustado para ser relativo al ancho de la ventana */
+  margin: 5vh auto;
+  /* Márgenes verticales proporcionales al alto de la ventana */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* Asegura que no haya desbordamiento */
+  border-radius: 1rem;
+  /* Bordes redondeados proporcionales */
+  box-shadow: 0 0.125rem 0.75rem rgba(0, 0, 0, 0.06);
+  /* Sombra proporcional */
+}
+
+.hero-image {
+  width: 100%;
+  /* Cambiado a 100% para ocupar todo el ancho del contenedor */
+  height: auto;
+  /* Ajustar la altura automáticamente para mantener la proporción */
+  max-height: none;
+  /* Eliminar la restricción de altura máxima */
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  object-fit: cover;
+}
+
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100vw;
+  height: 64px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  padding: 0 32px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.about-us-section {
+  max-width: 90vw;
+  /* Mantener el ancho completo de la ventana */
+  margin: 5vh auto;
+  /* Márgenes verticales proporcionales al alto de la ventana */
+  padding: 2.5rem 2rem;
+  /* Relleno interno proporcional */
+  background: #fff;
+  border-radius: 1rem;
+  /* Bordes redondeados proporcionales */
+  box-shadow: 0 0.125rem 0.75rem rgba(0, 0, 0, 0.06);
+  /* Sombra proporcional */
+  text-align: center;
+  overflow: hidden;
+  /* Asegura que no haya desbordamiento */
+}
+
+.about-us-text {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Media Queries para diseño responsivo */
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  .hero-image-section {
+    flex-direction: column;
+    padding: 16px;
+    margin: 20px auto;
+  }
+
+  .about-us-section {
+    padding: 16px;
+    margin: 20px auto;
+  }
+
+  .contact-form-columns {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .contact-info-col,
+  .contact-form-col {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .navbar {
+    padding: 0 16px;
+  }
+
+  .navbar-btn {
+    font-size: 0.9rem;
+    padding: 6px 16px;
+  }
+
+  /* Ajustes para el logo y botones en pantallas pequeñas */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 16px;
+  }
+
+  .navbar-logo-left {
+    margin-bottom: 8px;
+  }
+
+  .logo-navbar-small {
+    height: 32px;
+    /* Reducir tamaño del logo en móviles */
+  }
+
+  .navbar-buttons {
+    margin: 0;
+    gap: 8px;
+  }
+
+  .navbar-btn {
+    font-size: 0.85rem;
+    padding: 6px 12px;
+  }
+}
+
+/* Estilos para pantallas medianas (tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-image-section {
+    padding: 24px;
+    margin: 30px auto;
+  }
+
+  .about-us-section {
+    padding: 24px;
+    margin: 30px auto;
+  }
+
+  .contact-form-columns {
+    gap: 24px;
+  }
+
+  .contact-info-col,
+  .contact-form-col {
+    max-width: 90%;
+  }
+
+  .navbar {
+    padding: 0 24px;
+  }
+
+  .navbar-btn {
+    font-size: 1rem;
+    padding: 8px 20px;
+  }
+}
+
+/* Estilos para pantallas grandes (escritorios) */
+@media (min-width: 1025px) {
+  .hero-image-section {
+    padding: 32px;
+    margin: 40px auto;
+  }
+
+  .about-us-section {
+    padding: 32px;
+    margin: 40px auto;
+  }
+
+  .contact-form-columns {
+    gap: 32px;
+  }
+
+  .contact-info-col,
+  .contact-form-col {
+    max-width: 50%;
+  }
+
+  .navbar {
+    padding: 0 32px;
+  }
+
+  .navbar-btn {
+    font-size: 1.1rem;
+    padding: 10px 24px;
+  }
+}
