@@ -6,6 +6,7 @@ import './styles/index.css'
 
 import Home from './pages/Home.jsx';
 import Garantia from './pages/Garantia.jsx';
+import Catalog from './pages/Catalog.jsx';
 import MainLayout from './layouts/MainLayout.jsx';
 
 createRoot(document.getElementById('root')).render(
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Home />} />
             <Route path="garantia" element={<Garantia />} />
+            <Route path="catalogo" element={<Catalog />} />
           </Route>
         </Routes>
       </BrowserRouter>

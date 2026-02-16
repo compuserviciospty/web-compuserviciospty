@@ -298,6 +298,28 @@
   box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
 }
 
+.cta-button-red {
+  background-color: #d32f2f;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 14px rgba(211, 47, 47, 0.3);
+  margin-top: 1.5rem;
+}
+
+.cta-button-red:hover {
+  background-color: #b71c1c;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(211, 47, 47, 0.5);
+}
+
 .contact-info-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -700,5 +722,106 @@ hr {
   .navbar-btn {
     font-size: 1.1rem;
     padding: 10px 24px;
+  }
+}
+
+/* --- Catalog Promo Section (Home) --- */
+.catalog-promo-section {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 3rem;
+  align-items: center;
+  text-align: left;
+}
+
+.catalog-promo-content .section-subtitle,
+.catalog-promo-content .section-header {
+  text-align: left;
+}
+
+.catalog-promo-image .promo-img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.catalog-promo-image:hover .promo-img {
+  transform: scale(1.02);
+}
+
+@media (max-width: 900px) {
+  .catalog-promo-section {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .catalog-promo-content .section-subtitle,
+  .catalog-promo-content .section-header {
+    text-align: center;
+  }
+
+  .catalog-promo-image {
+    order: -1;
+  }
+}
+
+/* --- Catalog Page --- */
+.catalog-page {
+  padding-top: 80px;
+  /* Offset for fixed navbar */
+  min-height: 100vh;
+  background: #fdfdfd;
+}
+
+.catalog-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.catalog-header .section-subtitle,
+.catalog-header .section-header {
+  text-align: center;
+}
+
+.section-text {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.catalog-container {
+  max-width: 1000px;
+  margin: 0 auto 5rem auto;
+  padding: 0 1.5rem;
+}
+
+.pdf-wrapper {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  border: 1px solid #eee;
+  aspect-ratio: 1 / 1.4;
+  /* Standard PDF aspect ratio */
+}
+
+.catalog-iframe {
+  border: none;
+  height: 100%;
+}
+
+.catalog-cta {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .pdf-wrapper {
+    aspect-ratio: auto;
+    height: 600px;
   }
 }

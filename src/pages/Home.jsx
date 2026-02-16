@@ -133,6 +133,31 @@ function Home() {
                 </div>
             </div>
 
+            {/* --- Catalog Section --- */}
+            <div className="content-section catalog-promo-section">
+                <div className="catalog-promo-content">
+                    <h2 className="section-subtitle">Nuevos Equipos y Accesorios</h2>
+                    <h3 className="section-header">Explora Nuestro Catálogo</h3>
+                    <p className="section-text">
+                        Mantente al día con lo último en tecnología. Hemos preparado un catálogo digital completo con
+                        nuestros productos disponibles, especificaciones y precios competitivos.
+                    </p>
+                    <div style={{ marginTop: '2rem' }}>
+                        <a href="/catalogo" className="cta-button-red" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                            Ver Catálogo Digital
+                        </a>
+                    </div>
+                </div>
+                <div className="catalog-promo-image">
+                    <img
+                        src="/assets/image1.jpeg"
+                        alt="Vista previa catálogo"
+                        className="promo-img"
+                    />
+                </div>
+            </div>
+
             {/* --- Contact / CTA Section --- */}
             <div className="content-section">
                 <div className="cta-container">
